@@ -31,7 +31,10 @@ body{
   border:4px solid #00f7ff;
   box-shadow:0 0 30px #00f7ff;
   margin-bottom:20px;
+  object-fit: cover;
+  object-position: center;
 }
+
 
 h1{
   font-size:3rem;
@@ -134,3 +137,4 @@ footer{
   from{opacity:0;transform:translateY(40px);}
   to{opacity:1;transform:translateY(0);}
 }
+
